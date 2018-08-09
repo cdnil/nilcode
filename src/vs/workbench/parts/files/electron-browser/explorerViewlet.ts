@@ -140,7 +140,7 @@ export class ExplorerViewletViewsContribution extends Disposable implements IWor
 	}
 
 	private updateOpenEditorsVisibility(): void {
-		this.openEditorsVisibleContextKey.set(this.workspaceContextService.getWorkbenchState() === WorkbenchState.EMPTY || this.configurationService.getValue('explorer.openEditors.visible') !== 0);
+		this.openEditorsVisibleContextKey.set(false);
 	}
 }
 
