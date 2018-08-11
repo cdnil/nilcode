@@ -13,5 +13,10 @@
 		"name": "vscodevim.vim",
 		"version": "0.16.0",
 		"repo": "https://github.com/VSCodeVim/Vim"
+	},
+	{
+		"name": "zhuangtongfa.material-theme",
+		"version": "2.15.4",
+		"repo": "https://github.com/Binaryify/OneDark-Pro"
 	}
 ]
