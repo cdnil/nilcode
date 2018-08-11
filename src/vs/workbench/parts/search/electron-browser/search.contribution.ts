@@ -618,7 +618,7 @@ configurationRegistry.registerConfiguration({
 		'search.location': {
 			type: 'string',
 			enum: ['sidebar', 'panel'],
-			default: 'sidebar',
+			default: 'panel',
 			description: nls.localize('search.location', "Controls whether the search will be shown as a view in the sidebar or as a panel in the panel area for more horizontal space."),
 		}
 	}
