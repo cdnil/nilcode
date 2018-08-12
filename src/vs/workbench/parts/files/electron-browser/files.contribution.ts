@@ -77,7 +77,7 @@ Registry.as<ViewletRegistry>(ViewletExtensions.Viewlets).registerViewlet(new Vie
 Registry.as<ViewletRegistry>(ViewletExtensions.Viewlets).setDefaultViewletId(VIEWLET_ID);
 
 const openViewletKb: IKeybindings = {
-	primary: KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KEY_E
+	primary: KeyMod.WinCtrl | KeyCode.US_DOT
 };
 
 // Register Action to Open Viewlet
