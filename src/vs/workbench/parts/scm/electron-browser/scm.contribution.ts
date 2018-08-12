@@ -57,7 +57,7 @@ Registry.as<IWorkbenchActionRegistry>(WorkbenchActionExtensions.WorkbenchActions
 		primary: null,
 		win: { primary: KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KEY_G },
 		linux: { primary: KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KEY_G },
-		mac: { primary: KeyMod.WinCtrl | KeyMod.Shift | KeyCode.KEY_G }
+		mac: { primary: KeyMod.WinCtrl | KeyCode.KEY_G }
 	}),
 	'View: Show SCM',
 	localize('view', "View")

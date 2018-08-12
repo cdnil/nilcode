@@ -30,8 +30,8 @@ registry.registerWorkbenchAction(new SyncActionDescriptor(ShowAllCommandsAction,
 }), 'Show All Commands');
 
 registry.registerWorkbenchAction(new SyncActionDescriptor(GotoLineAction, GotoLineAction.ID, GotoLineAction.LABEL, {
-	primary: KeyMod.CtrlCmd | KeyCode.KEY_G,
-	mac: { primary: KeyMod.WinCtrl | KeyCode.KEY_G }
+	primary: null,
+	mac: null,
 }), 'Go to Line...');
 
 registry.registerWorkbenchAction(new SyncActionDescriptor(GotoSymbolAction, GotoSymbolAction.ID, GotoSymbolAction.LABEL, {

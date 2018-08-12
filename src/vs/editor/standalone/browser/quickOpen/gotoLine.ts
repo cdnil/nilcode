@@ -153,8 +153,8 @@ export class GotoLineAction extends BaseEditorQuickOpenAction {
 			precondition: null,
 			kbOpts: {
 				kbExpr: EditorContextKeys.focus,
-				primary: KeyMod.CtrlCmd | KeyCode.KEY_G,
-				mac: { primary: KeyMod.WinCtrl | KeyCode.KEY_G },
+				primary: null,
+				mac: null,
 				weight: KeybindingWeight.EditorContrib
 			}
 		});
