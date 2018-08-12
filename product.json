@@ -1,8 +1,8 @@
 {
-	"nameShort": "Code - OSS",
-	"nameLong": "Code - OSS",
-	"applicationName": "code-oss",
-	"dataFolderName": ".vscode-oss",
+	"nameShort": "nilcode",
+	"nameLong": "nilcode",
+	"applicationName": "nilcode",
+	"dataFolderName": ".nilcode",
 	"win32MutexName": "vscodeoss",
 	"licenseName": "MIT",
 	"licenseUrl": "https://github.com/Microsoft/vscode/blob/master/LICENSE.txt",
@@ -15,9 +15,9 @@
 	"win32x64UserAppId": "{{C6065F05-9603-4FC4-8101-B9781A25D88E}",
 	"win32AppUserModelId": "Microsoft.CodeOSS",
 	"win32ShellNameShort": "C&ode - OSS",
-	"darwinBundleIdentifier": "com.visualstudio.code.oss",
+	"darwinBundleIdentifier": "am.lin.nilcode",
 	"reportIssueUrl": "https://github.com/Microsoft/vscode/issues/new",
-	"urlProtocol": "code-oss",
+	"urlProtocol": "nilcode",
 	"extensionAllowedProposedApi": [
 		"ms-vscode.node-debug",
 		"ms-vscode.node-debug2"
