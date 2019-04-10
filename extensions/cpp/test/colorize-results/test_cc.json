@@ -1,7 +1,7 @@
 [
 	{
 		"c": "#",
-		"t": "source.cpp meta.preprocessor.cpp keyword.control.directive.conditional.cpp punctuation.definition.directive.cpp",
+		"t": "source.cpp meta.preprocessor.c keyword.control.directive.conditional.c punctuation.definition.directive.c",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -12,7 +12,7 @@
 	},
 	{
 		"c": "if",
-		"t": "source.cpp meta.preprocessor.cpp keyword.control.directive.conditional.cpp",
+		"t": "source.cpp meta.preprocessor.c keyword.control.directive.conditional.c",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -23,7 +23,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.preprocessor.cpp",
+		"t": "source.cpp meta.preprocessor.c",
 		"r": {
 			"dark_plus": "meta.preprocessor: #569CD6",
 			"light_plus": "meta.preprocessor: #0000FF",
@@ -34,7 +34,7 @@
 	},
 	{
 		"c": "B4G_DEBUG_CHECK",
-		"t": "source.cpp meta.preprocessor.cpp entity.name.function.preprocessor.cpp",
+		"t": "source.cpp meta.preprocessor.c entity.name.function.preprocessor.c",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -188,7 +188,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -210,7 +210,7 @@
 	},
 	{
 		"c": "for",
-		"t": "source.cpp keyword.control.for.cpp",
+		"t": "source.cpp keyword.control.c",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -476,11 +476,11 @@
 		"c": "user_candidate",
 		"t": "source.cpp meta.function.definition.parameters.cpp meta.function.definition.parameters.cpp meta.bracket.square.access.cpp variable.other.object.cpp",
 		"r": {
-			"dark_plus": "variable: #9CDCFE",
-			"light_plus": "variable: #001080",
+			"dark_plus": "default: #D4D4D4",
+			"light_plus": "default: #000000",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
-			"hc_black": "variable: #9CDCFE"
+			"hc_black": "default: #FFFFFF"
 		}
 	},
 	{
@@ -529,7 +529,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -639,7 +639,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -650,7 +650,7 @@
 	},
 	{
 		"c": "#",
-		"t": "source.cpp meta.preprocessor.cpp keyword.control.directive.conditional.cpp punctuation.definition.directive.cpp",
+		"t": "source.cpp meta.preprocessor.c keyword.control.directive.conditional.c punctuation.definition.directive.c",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -661,7 +661,7 @@
 	},
 	{
 		"c": "endif",
-		"t": "source.cpp meta.preprocessor.cpp keyword.control.directive.conditional.cpp",
+		"t": "source.cpp meta.preprocessor.c keyword.control.directive.conditional.c",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -771,7 +771,7 @@
 	},
 	{
 		"c": "{",
-		"t": "source.cpp meta.block.cpp punctuation.section.block.begin.bracket.curly.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.block.begin.bracket.curly.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -782,7 +782,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -793,7 +793,7 @@
 	},
 	{
 		"c": "LOG_INFO",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c entity.name.function.c",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -804,7 +804,7 @@
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -815,7 +815,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -826,7 +826,7 @@
 	},
 	{
 		"c": "not hilighted as string",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -837,7 +837,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -848,7 +848,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -859,7 +859,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -870,7 +870,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -881,7 +881,7 @@
 	},
 	{
 		"c": "LOG_INFO",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c entity.name.function.c",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -892,7 +892,7 @@
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -903,7 +903,7 @@
 	},
 	{
 		"c": "obj ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -914,7 +914,7 @@
 	},
 	{
 		"c": "<<",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp keyword.operator.bitwise.shift.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c keyword.operator.bitwise.shift.c",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -925,7 +925,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -936,7 +936,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -947,7 +947,7 @@
 	},
 	{
 		"c": ", even worse; ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -958,7 +958,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -969,7 +969,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -980,7 +980,7 @@
 	},
 	{
 		"c": "<<",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp keyword.operator.bitwise.shift.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c keyword.operator.bitwise.shift.c",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -990,8 +990,8 @@
 		}
 	},
 	{
-		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"c": " obj",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1035,7 +1035,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1046,7 +1046,7 @@
 	},
 	{
 		"c": "<<",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp keyword.operator.bitwise.shift.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c keyword.operator.bitwise.shift.c",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -1057,7 +1057,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1068,7 +1068,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1079,7 +1079,7 @@
 	},
 	{
 		"c": " check this out.",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1090,7 +1090,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1101,7 +1101,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1112,7 +1112,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1123,7 +1123,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp punctuation.whitespace.comment.leading.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.comment.leading.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1134,7 +1134,7 @@
 	},
 	{
 		"c": "//",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp punctuation.definition.comment.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp punctuation.definition.comment.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1145,7 +1145,7 @@
 	},
 	{
 		"c": " everything from this point on is interpeted as a string literal...",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1156,7 +1156,7 @@
 	},
 	{
 		"c": "    O x",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1167,7 +1167,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1211,7 +1211,7 @@
 	},
 	{
 		"c": "unique_ptr",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1222,7 +1222,7 @@
 	},
 	{
 		"c": "<",
-		"t": "source.cpp meta.block.cpp keyword.operator.comparison.cpp",
+		"t": "source.cpp meta.block.c keyword.operator.comparison.c",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -1233,7 +1233,7 @@
 	},
 	{
 		"c": "O",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1244,7 +1244,7 @@
 	},
 	{
 		"c": ">",
-		"t": "source.cpp meta.block.cpp keyword.operator.comparison.cpp",
+		"t": "source.cpp meta.block.c keyword.operator.comparison.c",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -1255,7 +1255,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1266,7 +1266,7 @@
 	},
 	{
 		"c": "o",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c entity.name.function.c",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1277,7 +1277,7 @@
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1299,7 +1299,7 @@
 	},
 	{
 		"c": " O",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1310,7 +1310,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1321,7 +1321,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1332,7 +1332,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp punctuation.whitespace.comment.leading.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.comment.leading.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1343,7 +1343,7 @@
 	},
 	{
 		"c": "//",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp punctuation.definition.comment.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp punctuation.definition.comment.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1354,7 +1354,7 @@
 	},
 	{
 		"c": " sadness.",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1365,7 +1365,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.support.function.leading.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1376,18 +1376,18 @@
 	},
 	{
 		"c": "sprintf",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c support.function.C99.c",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "support.function: #DCDCAA",
+			"light_plus": "support.function: #795E26",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA"
+			"hc_black": "support.function: #DCDCAA"
 		}
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.parens.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1398,7 +1398,7 @@
 	},
 	{
 		"c": "options",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1420,7 +1420,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1431,7 +1431,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1442,7 +1442,7 @@
 	},
 	{
 		"c": "STYLE=Keramik;TITLE=",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1453,7 +1453,7 @@
 	},
 	{
 		"c": "%s",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp constant.other.placeholder.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp constant.other.placeholder.c",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1464,7 +1464,7 @@
 	},
 	{
 		"c": ";THEME=",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1475,7 +1475,7 @@
 	},
 	{
 		"c": "%s",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp constant.other.placeholder.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp constant.other.placeholder.c",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1486,7 +1486,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1530,7 +1530,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.parens.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1541,7 +1541,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1552,7 +1552,7 @@
 	},
 	{
 		"c": "}",
-		"t": "source.cpp meta.block.cpp punctuation.section.block.end.bracket.curly.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.block.end.bracket.curly.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1629,7 +1629,7 @@
 	},
 	{
 		"c": "{",
-		"t": "source.cpp meta.block.cpp punctuation.section.block.begin.bracket.curly.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.block.begin.bracket.curly.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1640,7 +1640,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.support.function.leading.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1651,18 +1651,18 @@
 	},
 	{
 		"c": "printf",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c support.function.C99.c",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "support.function: #DCDCAA",
+			"light_plus": "support.function: #795E26",
 			"dark_vs": "default: #D4D4D4",
 			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA"
+			"hc_black": "support.function: #DCDCAA"
 		}
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.parens.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1673,7 +1673,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1684,7 +1684,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1695,7 +1695,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1706,7 +1706,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.parens.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1717,7 +1717,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1728,7 +1728,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp punctuation.whitespace.comment.leading.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.comment.leading.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1739,7 +1739,7 @@
 	},
 	{
 		"c": "//",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp punctuation.definition.comment.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp punctuation.definition.comment.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1750,7 +1750,7 @@
 	},
 	{
 		"c": " the rest of",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1761,7 +1761,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp",
+		"t": "source.cpp meta.block.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1794,7 +1794,7 @@
 	},
 	{
 		"c": "fn",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp entity.name.function.call.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c entity.name.function.c",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1805,7 +1805,7 @@
 	},
 	{
 		"c": "(",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.begin.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.begin.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1816,7 +1816,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.begin.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.begin.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1827,7 +1827,7 @@
 	},
 	{
 		"c": "{};",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1838,7 +1838,7 @@
 	},
 	{
 		"c": "\"",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp string.quoted.double.cpp punctuation.definition.string.end.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c string.quoted.double.cpp punctuation.definition.string.end.cpp",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1849,7 +1849,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.cpp meta.block.cpp meta.function-call.cpp punctuation.section.arguments.end.bracket.round.cpp",
+		"t": "source.cpp meta.block.c meta.function-call.c punctuation.section.arguments.end.bracket.round.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1860,7 +1860,7 @@
 	},
 	{
 		"c": ";",
-		"t": "source.cpp meta.block.cpp punctuation.terminator.statement.cpp",
+		"t": "source.cpp meta.block.c punctuation.terminator.statement.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1871,7 +1871,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "source.cpp meta.block.cpp punctuation.whitespace.comment.leading.cpp",
+		"t": "source.cpp meta.block.c punctuation.whitespace.comment.leading.cpp",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1882,7 +1882,7 @@
 	},
 	{
 		"c": "//",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp punctuation.definition.comment.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp punctuation.definition.comment.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1893,7 +1893,7 @@
 	},
 	{
 		"c": " the rest of",
-		"t": "source.cpp meta.block.cpp comment.line.double-slash.cpp",
+		"t": "source.cpp meta.block.c comment.line.double-slash.cpp",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1904,7 +1904,7 @@
 	},
 	{
 		"c": "}",
-		"t": "source.cpp meta.block.cpp punctuation.section.block.end.bracket.curly.cpp",
+		"t": "source.cpp meta.block.c punctuation.section.block.end.bracket.curly.c",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
