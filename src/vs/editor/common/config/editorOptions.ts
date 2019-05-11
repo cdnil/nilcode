@@ -2675,7 +2675,7 @@ export const EDITOR_DEFAULTS: IValidatedEditorOptions = {
 			fastScrollSensitivity: 5,
 		},
 		minimap: {
-			enabled: true,
+			enabled: false,
 			side: 'right',
 			showSlider: 'mouseover',
 			renderCharacters: true,
