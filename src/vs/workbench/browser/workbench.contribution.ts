@@ -177,7 +177,7 @@ import { isMacintosh } from 'vs/base/common/platform';
 			},
 			'workbench.activityBar.visible': {
 				'type': 'boolean',
-				'default': true,
+				'default': false,
 				'description': nls.localize('activityBarVisibility', "Controls the visibility of the activity bar in the workbench.")
 			},
 			'workbench.view.alwaysShowHeaderActions': {
