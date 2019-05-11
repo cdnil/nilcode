@@ -43,5 +43,9 @@
 			},
 			"publisherDisplayName": "Microsoft"
 		}
+	},
+	{
+		"name": "vscodevim.vim",
+		"version": "1.8.0"
 	}
 ]
