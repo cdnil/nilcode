@@ -140,7 +140,9 @@ export class CodeWindow extends Disposable implements ICodeWindow {
 				// flag that Electron provides via patch:
 				// https://github.com/electron/libchromiumcontent/blob/master/patches/common/chromium/disable_hidden.patch
 				backgroundThrottling: false
-			}
+			},
+			frame: false,
+			titleBarStyle: 'customButtonsOnHover',
 		};
 
 		if (this.nodeless) {
