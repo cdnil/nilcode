@@ -1,9 +1,9 @@
 {
-	"nameShort": "Code - OSS",
-	"nameLong": "Code - OSS",
-	"applicationName": "code-oss",
-	"dataFolderName": ".vscode-oss",
-	"win32MutexName": "vscodeoss",
+	"nameShort": "Shape",
+	"nameLong": "Shape",
+	"applicationName": "shape",
+	"dataFolderName": ".shape",
+	"win32MutexName": "shape",
 	"licenseName": "MIT",
 	"licenseUrl": "https://github.com/Microsoft/vscode/blob/master/LICENSE.txt",
 	"win32DirName": "Microsoft Code OSS",
@@ -15,11 +15,11 @@
 	"win32x64UserAppId": "{{C6065F05-9603-4FC4-8101-B9781A25D88E}",
 	"win32AppUserModelId": "Microsoft.CodeOSS",
 	"win32ShellNameShort": "C&ode - OSS",
-	"darwinBundleIdentifier": "com.visualstudio.code.oss",
+	"darwinBundleIdentifier": "page.nil.shape",
 	"linuxIconName": "com.visualstudio.code.oss",
 	"licenseFileName": "LICENSE.txt",
 	"reportIssueUrl": "https://github.com/Microsoft/vscode/issues/new",
-	"urlProtocol": "code-oss",
+	"urlProtocol": "shape",
 	"extensionAllowedProposedApi": [
 		"ms-vscode.references-view"
 	]
