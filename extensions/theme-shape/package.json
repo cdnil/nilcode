@@ -1,0 +1,32 @@
+{
+    "name": "shape",
+    "displayName": "Shape Theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "cdnil",
+    "icon": "",
+    "repository": {
+        "url": "",
+        "type": "git"
+    },
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shape",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shape-theme.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "",
+        "publisherId": "",
+        "publisherDisplayName": ""
+    }
+}

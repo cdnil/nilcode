@@ -35,7 +35,7 @@ import { getRemoteAuthority } from 'vs/platform/remote/common/remoteHosts';
 // implementation
 
 const DEFAULT_THEME_ID = 'vs-dark vscode-theme-defaults-themes-dark_plus-json';
-const DEFAULT_THEME_SETTING_VALUE = 'Default Dark+';
+const DEFAULT_THEME_SETTING_VALUE = 'Shape';
 
 const PERSISTED_THEME_STORAGE_KEY = 'colorThemeData';
 const PERSISTED_ICON_THEME_STORAGE_KEY = 'iconThemeData';
