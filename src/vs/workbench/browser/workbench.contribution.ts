@@ -188,7 +188,7 @@ import { isMacintosh } from 'vs/base/common/platform';
 			'workbench.fontAliasing': {
 				'type': 'string',
 				'enum': ['default', 'antialiased', 'none', 'auto'],
-				'default': 'default',
+				'default': 'antialiased',
 				'description':
 					nls.localize('fontAliasing', "Controls font aliasing method in the workbench."),
 				'enumDescriptions': [
