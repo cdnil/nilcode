@@ -251,7 +251,7 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#91DD64"
+                "foreground": "#98C784"
             }
         },
         {
@@ -261,7 +261,7 @@
                 "punctuation.definition.string.template"
             ],
             "settings": {
-                "foreground": "#91DD64"
+                "foreground": "#98C784"
             }
         },
         {
@@ -293,7 +293,7 @@
             "name": "Variable",
             "scope": "variable",
             "settings": {
-                "foreground": "#fff"
+                "foreground": "#EDA65C"
             }
         },
         {
@@ -633,7 +633,7 @@
                 "punctuation.definition.string.begin.json"
             ],
             "settings": {
-                "foreground": "#91DD64"
+                "foreground": "#98C784"
             }
         }
     ]
