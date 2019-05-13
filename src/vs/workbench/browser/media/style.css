@@ -5,7 +5,7 @@
 
 /* Font Families (with CJK support) */
 
-.mac { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+.mac { font-family: "Operator Mono", -apple-system, BlinkMacSystemFont, sans-serif; }
 .mac:lang(zh-Hans) { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", sans-serif; }
 .mac:lang(zh-Hant) { font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", sans-serif; }
 .mac:lang(ja) { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic Pro", sans-serif; }
@@ -23,7 +23,7 @@
 .linux:lang(ja) { font-family: "Ubuntu", "Droid Sans", "Source Han Sans J", "Source Han Sans JP", "Source Han Sans", sans-serif; }
 .linux:lang(ko) { font-family: "Ubuntu", "Droid Sans", "Source Han Sans K", "Source Han Sans JR", "Source Han Sans", "UnDotum", "FBaekmuk Gulim", sans-serif; }
 
-.mac { --monaco-monospace-font: Monaco, Menlo, Inconsolata, "Courier New", monospace; }
+.mac { --monaco-monospace-font: "Operator Mono", Monaco, Menlo, Inconsolata, "Courier New", monospace; }
 .windows { --monaco-monospace-font: Consolas, Inconsolata, "Courier New", monospace; }
 .linux { --monaco-monospace-font: "Droid Sans Mono", Inconsolata, "Courier New", monospace, "Droid Sans Fallback"; }
 
@@ -37,6 +37,7 @@ body {
 	overflow: hidden;
 	font-size: 11px;
 	user-select: none;
+	font-weight: 500;
 }
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
