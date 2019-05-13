@@ -47,7 +47,7 @@ import { isMacintosh } from 'vs/base/common/platform';
 			'workbench.editor.tabCloseButton': {
 				'type': 'string',
 				'enum': ['left', 'right', 'off'],
-				'default': 'right',
+				'default': 'off',
 				'description': nls.localize({ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'editorTabCloseButton' }, "Controls the position of the editor's tabs close buttons, or disables them when set to 'off'.")
 			},
 			'workbench.editor.tabSizing': {
