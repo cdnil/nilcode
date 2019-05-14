@@ -2656,8 +2656,8 @@ export const EDITOR_DEFAULTS: IValidatedEditorOptions = {
 		renderWhitespace: 'none',
 		renderControlCharacters: false,
 		fontLigatures: false,
-		renderIndentGuides: true,
-		highlightActiveIndentGuide: true,
+		renderIndentGuides: false,
+		highlightActiveIndentGuide: false,
 		renderLineHighlight: 'line',
 		scrollbar: {
 			vertical: ScrollbarVisibility.Auto,
