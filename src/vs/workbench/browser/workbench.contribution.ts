@@ -22,7 +22,7 @@ import { isMacintosh } from 'vs/base/common/platform';
 			'workbench.editor.showTabs': {
 				'type': 'boolean',
 				'description': nls.localize('showEditorTabs', "Controls whether opened editors should show in tabs or not."),
-				'default': true
+				'default': false,
 			},
 			'workbench.editor.highlightModifiedTabs': {
 				'type': 'boolean',
