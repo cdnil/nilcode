@@ -320,7 +320,7 @@ import 'vs/workbench/contrib/welcome/overlay/browser/welcomeOverlay';
 // import 'vs/workbench/contrib/welcome/page/browser/welcomePage.contribution';
 
 // Outline
-import 'vs/workbench/contrib/outline/browser/outline.contribution';
+// import 'vs/workbench/contrib/outline/browser/outline.contribution';
 
 // Experiments
 // import 'vs/workbench/contrib/experiments/electron-browser/experiments.contribution';
